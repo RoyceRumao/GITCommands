@@ -1,0 +1,24 @@
+git config --global user.name "RoyceRumao"
+git config --global user.email "roycerumao100@gmail.com"
+git --version
+git status
+git clone "https://github.com/RoyceRumao/FirstProject.git"
+git add "File name"
+git commit -m "meaningful message"
+git init (To make git repo in local machine)
+git remote add origin "Link of new git repo from Github"
+git remote -v (to verify remote)
+git branch (To check branch)
+git branch -M main (To rename Branch to Main)
+git push -u origin main (-u so that we dont need to add origin main the next time we run this command. just run git push)
+git checkout -b "New branch name"
+git checkout "" (to select a branch)
+git branch -d "branch name"
+git diff (branch name) (It shows difference in branch data)
+git merge (branch name) (To merge Branch with main branch )
+git pull origin main (To pull data from GitHub to local)
+git reset 
+git reset "File name"
+git reset HEAD~1 (Reset to last commit)
+git reset <Hash code> (reset to previous hash commit)
+
